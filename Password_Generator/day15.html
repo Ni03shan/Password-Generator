@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day15</title>
+    <link rel="stylesheet" href="day15.css">
+</head>
+<body>
+    <div id="main">
+        <p id="title">Password Generator </p>
+        <div id="display">
+            <input placeholder="Password" disabled id="pass" >
+            <button id="copy" padding="0">Copy</button>
+              </div>
+        <div id="spchr">
+            <input type="checkbox" id="check1">
+            <p id="spchr2">Special Chars</p>
+        </div>
+        <span id="num">
+            <input type="checkbox" id="check2">
+            <p id="num2">Numbers</p>
+        </span>
+        <input type="range" min="8" max="16" id="range">
+        <p>Password length is <span id="passwordLength">8</span></p>
+        <button type="submit" id="submit">Generate</button>
+    </div>
+    <script src="day15.js"></script>
+</body>
+</html>
